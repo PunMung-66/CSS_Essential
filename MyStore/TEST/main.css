@@ -1,0 +1,17 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div{
+    position: relative;
+    right: 150px;
+    bottom: 150px;
+    grid-column: 2;
+    grid-row: 2;
+}

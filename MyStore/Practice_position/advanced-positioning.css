@@ -1,0 +1,110 @@
+/**
+    * Start writing your code below 
+    * Use only CSS position properties
+    * Only add style when necessary
+*/
+
+/* ##### Don't change code below this line. ##### */
+.box {
+  border: 1px dashed #cccccc;
+  width: 150px;
+  height: 100px;
+  padding: 0 12px;
+  display: inline-block;
+  position: relative;
+}
+
+.box-group {
+  border: 1px dashed #cccccc;
+  padding: 24px;
+  width: 80%;
+}
+
+#box-group1 .box {
+  background: rgba(211, 229, 245, 0.5);
+}
+
+#box-group2 .box {
+  background: rgba(251, 233, 206, 0.5);
+}
+
+#box-group3 .box {
+  background: rgba(255, 83, 112, 0.3);
+}
+
+.box span {
+  color: #484848;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+}
+
+/* --------------------------------------------------------------------
+ # Start writing your code here 
+ -------------------------------------------------------------------- */
+
+/* --------------------
+  ## Exercise #1
+  -------------------- */
+#box-group1 {
+  position: static;
+}
+
+#box-1 {
+  position: relative;
+}
+
+#box-2 {
+  position: relative;
+  top: 24px;
+}
+
+#box-3 {
+  position: relative;
+  top: 48px;
+}
+
+/* --------------------
+  ## Exercise #2
+  -------------------- */
+#box-group2 {
+  position: relative;
+}
+
+#box-4 {
+  position: absolute;
+  right: 0px;
+}
+
+#box-5 {
+  position: relative;
+}
+
+#box-6 {
+  position: relative;
+}
+
+/* --------------------
+  ## Exercise #3
+  -------------------- */
+#box-group3 {
+  position: relative;
+}
+
+#box-7 {
+  position: fixed;
+}
+
+#box-8 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#box-9 {
+  position: fixed;
+  width: auto;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
